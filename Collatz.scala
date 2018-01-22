@@ -19,7 +19,7 @@ Object Collatz{
     }
 }
 
-/* Demo:
+/** Demo:
     Enter a positive integer: 300
     300 150 75 226 113 340 170 85 256 128 64 32 16 8 4 2 1
 
