@@ -5,10 +5,8 @@ import java.util.Scanner
 
 object Collatz{
     def main(args: Array[String]): Unit ={
-        val input = new Scanner(System.in)
         print("Enter a positive integer: ")
-        var num = input.nextInt()
-
+        val num = readInt
         collatz(num)
         println()
     }
