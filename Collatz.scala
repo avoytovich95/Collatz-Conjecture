@@ -1,8 +1,6 @@
 // Collatz Conjecture written in Scala
 // Tested in Scala sdk compiler 
 
-import java.util.Scanner
-
 object Collatz{
     def main(args: Array[String]): Unit ={
         print("Enter a positive integer: ")
