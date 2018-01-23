@@ -3,7 +3,7 @@
 
 def collatz(num)
     print "#{num} "
-    if num > 1
+    unless num == 1
         if num % 2 == 0
             collatz(num / 2)
         else 
