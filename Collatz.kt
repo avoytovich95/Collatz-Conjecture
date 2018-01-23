@@ -1,5 +1,5 @@
 // Collatz Conjecture written in Kotlin
-// Tested in Kotlin sdk
+// Tested in Kotlin sdk compiler
 
 import java.util.Scanner
 
