@@ -1,5 +1,5 @@
 % Collatz Conjecture written in Prolog
-% Tested in swipl
+% Tested in Swipl
 
 collatz(1) :- write(1).
 collatz(X) :-
