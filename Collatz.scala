@@ -1,21 +1,26 @@
 // Collatz Conjecture written in Scala
+// Tested in Scala sdk compiler 
 
 import java.util.Scanner
 
-Object Collatz{
+object Collatz{
     def main(args: Array[String]): Unit ={
         val input = new Scanner(System.in)
         print("Enter a positive integer: ")
         var num = input.nextInt()
 
-        while(num != 1){
-            print(s"$num ")
-            if ((num % 2) == 0)
-                num /= 2
+        collatz(num)
+        println()
+    }
+
+    def collatz(num: Int): Unit ={
+        print(s"$num ")
+        if(num != 1){
+            if (num % 2 == 0)
+                collatz(num / 2)
             else
-                num = num * 3 + 1
-        }   
-        print(num)
+                collatz(num * 3 + 1)
+        }
     }
 }
 
