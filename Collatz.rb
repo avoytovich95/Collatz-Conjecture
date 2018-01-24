@@ -13,8 +13,7 @@ def collatz(num)
 end
 
 print "Enter a positive integer: "
-num = gets.to_i
-collatz(num)
+collatz(gets.to_i)
 puts
 
 =begin
