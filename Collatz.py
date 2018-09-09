@@ -5,7 +5,6 @@ import sys
 
 def main():
     num = input("Enter a positive integer: ")
-
     while num is not 1:
         sys.stdout.write("%d " % num)
         if num % 2 is 0:
@@ -15,8 +14,7 @@ def main():
     print(num)
 
 
-if __name__ == "__main__":
-    main()
+main()
 
 # Demo:
 #   Enter a positive integer: 300
